@@ -51,7 +51,27 @@ font-family: LarishNeu;
   /* CALIFORNIA */
 
   /* STATISTICS */
-
+  #statistics {
+    height: 200vh;
+    background-color: #000;
+    color: #fff;
+    padding: 10% 0 0 10%;
+  }
+  #statistics h2,
+  h2 {
+    font-size: 6.3em;
+    width: 90%;
+    line-height: 1em;
+    padding-top: 2%;
+  }
+  #statistics article {
+    padding-top: 10%;
+    height: 75vh;
+    background-image: url(../img/map.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   /* GALLERY */
 
   /* BEARS */
