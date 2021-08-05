@@ -25,8 +25,37 @@ font-family: LarishNeu;
     font-weight: 400;
   }
 
+  h3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+
   p {
     font-family: "Work Sans", sans-serif;
     font-size: 1.3em;
     font-weight: 400;
   }
+
+  button {
+    height: 3.5em;
+    width: 8em;
+    background-color: transparent;
+  }
+
+  button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  /* CALIFORNIA */
+
+  /* STATISTICS */
+
+  /* GALLERY */
+
+  /* BEARS */
+
+  /* POPPYBEAR */
+
+  /* FOOTER */
