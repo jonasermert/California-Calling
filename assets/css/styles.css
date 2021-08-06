@@ -201,6 +201,7 @@ font-family: LarishNeu;
   /* POPPYBEAR */
 
   /* FOOTER */
+
   footer {
     position: relative;
     display: flex;
@@ -218,7 +219,7 @@ font-family: LarishNeu;
     font-size: 1.9em;
     padding: 2% 0;
   }
-  footer .firstUl {
+  footer .social {
     margin: 7% 0;
   }
   footer ul li {
@@ -244,7 +245,7 @@ font-family: LarishNeu;
   footer h6 {
     line-height: 2em;
   }
-  footer .banderolle {
+  footer .banner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
