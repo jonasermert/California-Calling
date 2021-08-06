@@ -52,6 +52,12 @@ font-family: LarishNeu;
     color: #000;
   }
 
+  span:not(h1 > span, footer h5 span) {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+
   /* CALIFORNIA */
 
   /* STATISTICS */
@@ -195,3 +201,69 @@ font-family: LarishNeu;
   /* POPPYBEAR */
 
   /* FOOTER */
+  footer {
+    position: relative;
+    display: flex;
+    flex-wrap: column;
+    background-color: #000;
+    height: 110vh;
+    color: #fff;
+    overflow: hidden;
+  }
+  footer aside:nth-of-type(1) {
+    padding: 10% 0 0 10%;
+  }
+  footer p:nth-of-type(1) {
+    width: 45%;
+    font-size: 1.9em;
+    padding: 2% 0;
+  }
+  footer .firstUl {
+    margin: 7% 0;
+  }
+  footer ul li {
+    padding-right: 1%;
+    display: inline;
+    list-style-type: none;
+  }
+  footer li a img {
+    width: 2.5%;
+  }
+  footer ul h6 {
+    font-size: 1em;
+    padding-top: 1%;
+  }
+  footer figure {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+  }
+  figure img {
+    width: 30%;
+  }
+  footer h6 {
+    line-height: 2em;
+  }
+  footer .banderolle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 5.4em;
+    white-space: nowrap;
+    height: 13vh;
+    background-color: #fff;
+    color: #000;
+    transform: translateY(300%) translateX(-7%) rotate(40deg);
+  }
+  footer h5 {
+    animation: 3s linear 0s infinite alternate move;
+    text-align: right;
+  }
+  footer h5 span {
+    font-family: LarishNeu;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    text-align: right;
+  }
