@@ -197,7 +197,43 @@ font-family: LarishNeu;
   }
 
   /* BEARS */
-
+  #bears {
+    position: relative;
+    height: 185vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: wrap;
+    z-index: 0;
+  }
+  #bears aside:nth-of-type(1) {
+    margin: 15% -2% 15% 10%;
+    width: 40%;
+  }
+  #bears aside:nth-of-type(2) {
+    margin-top: 18%;
+    width: 39%;
+  }
+  #bears aside p {
+    font-family: LarishNeu;
+    font-size: 1.8em;
+    line-height: 1.3em;
+    padding-bottom: 5%;
+  }
+  #bears img:nth-of-type(1) {
+    position: absolute;
+    z-index: 1;
+    width: 53vw;
+    top: 58%;
+    left: 13%;
+  }
+  #bears img:nth-of-type(2) {
+    position: absolute;
+    width: 30vw;
+    z-index: 5;
+    top: 65%;
+    right: 10%;
+  }
   /* POPPYBEAR */
 
   /* FOOTER */
