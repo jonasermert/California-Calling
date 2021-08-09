@@ -235,7 +235,65 @@ font-family: LarishNeu;
     right: 10%;
   }
   /* POPPYBEAR */
-
+  #poppyBear {
+    height: 240vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .animationWrapper {
+    text-align: right;
+    position: relative;
+    top: -6.5%;
+    right: -9.3%;
+    z-index: -5;
+    width: 100%;
+  }
+  .rotate {
+    animation: rotate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 30%;
+  }
+  @keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  #poppyBear img:not(.rotate) {
+    position: absolute;
+  }
+  #poppyBear aside:nth-of-type(1) {
+    margin: -45% 0 0 10%;
+    width: 40%;
+  }
+  #poppyBear aside:nth-of-type(2) {
+    margin-top: -42%;
+    width: 39%;
+  }
+  #poppyBear aside p {
+    font-family: LarishNeu;
+    font-size: 1.8em;
+    line-height: 1.3em;
+    padding-bottom: 5%;
+  }
+  #poppyBear .rosebear {
+    top: 50%;
+    left: 40%;
+    width: 50%;
+    z-index: 0;
+  }
+  #poppyBear .pb3 {
+    top: 58%;
+    left: 19%;
+    width: 27%;
+    z-index: 1;
+  }
   /* FOOTER */
 
   footer {
