@@ -362,3 +362,12 @@ font-family: LarishNeu;
     -webkit-text-stroke: 1px #000;
     text-align: right;
   }
+
+  @keyframes move {
+    from {
+      transform: translate3d(0%, 0%, 0px);
+    }
+    to {
+      transform: translate3d(-20%, 0%, 30px);
+    }
+  }
